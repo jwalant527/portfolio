@@ -6,9 +6,9 @@ import Providers from './providers';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'John Doe - Full Stack Developer Portfolio',
-  description: 'Modern portfolio website showcasing my work as a full stack developer. Built with Next.js, TypeScript, and Tailwind CSS.',
-  keywords: 'portfolio, full stack developer, web developer, React, Next.js, TypeScript',
+  title: 'Jwalant Bhatt - Platform Engineer at NIH',
+  description: 'Platform Engineer specializing in DevOps, CI/CD, and infrastructure automation at the National Institutes of Health. Expert in Kubernetes, Docker, Jenkins, and cloud platforms.',
+  keywords: 'platform engineer, devops, kubernetes, docker, jenkins, cicd, infrastructure, automation, NIH, NCBI',
 };
 
 export default function RootLayout({

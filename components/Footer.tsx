@@ -29,7 +29,7 @@ export default function Footer() {
             >
               <FiHeart className="text-red-500 fill-current" />
             </motion.div>
-            <span>by John Doe</span>
+            <span>by Jwalant Bhatt</span>
           </motion.div>
 
           <motion.div

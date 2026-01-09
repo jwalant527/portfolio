@@ -5,25 +5,25 @@ import { useInView } from 'react-intersection-observer';
 import { FiCode, FiLayout, FiDatabase, FiTool } from 'react-icons/fi';
 
 const technologies = [
-  { name: 'React', category: 'frontend' },
-  { name: 'Next.js', category: 'frontend' },
-  { name: 'TypeScript', category: 'frontend' },
-  { name: 'Tailwind CSS', category: 'frontend' },
-  { name: 'Node.js', category: 'backend' },
-  { name: 'Express', category: 'backend' },
-  { name: 'MongoDB', category: 'backend' },
-  { name: 'PostgreSQL', category: 'backend' },
-  { name: 'Git', category: 'tools' },
-  { name: 'Docker', category: 'tools' },
-  { name: 'AWS', category: 'tools' },
-  { name: 'Figma', category: 'design' },
+  { name: 'Kubernetes', category: 'platform' },
+  { name: 'Docker', category: 'platform' },
+  { name: 'Jenkins', category: 'cicd' },
+  { name: 'GitLab CI', category: 'cicd' },
+  { name: 'Terraform', category: 'iac' },
+  { name: 'Ansible', category: 'iac' },
+  { name: 'AWS', category: 'cloud' },
+  { name: 'Azure', category: 'cloud' },
+  { name: 'Python', category: 'language' },
+  { name: 'Bash', category: 'language' },
+  { name: 'Prometheus', category: 'monitoring' },
+  { name: 'Grafana', category: 'monitoring' },
 ];
 
 const stats = [
-  { label: 'Years Experience', value: '5+', icon: FiCode },
-  { label: 'Projects Completed', value: '50+', icon: FiLayout },
-  { label: 'Technologies', value: '20+', icon: FiDatabase },
-  { label: 'Client Satisfaction', value: '100%', icon: FiTool },
+  { label: 'Years Experience', value: '3+', icon: FiCode },
+  { label: 'CI/CD Pipelines', value: '50+', icon: FiLayout },
+  { label: 'DevOps Tools', value: '20+', icon: FiDatabase },
+  { label: 'System Uptime', value: '99.9%', icon: FiTool },
 ];
 
 export default function About() {
@@ -82,19 +82,21 @@ export default function About() {
           >
             <div className="prose prose-lg dark:prose-invert max-w-none">
               <p className="text-dark-600 dark:text-dark-400 leading-relaxed mb-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                I'm a Platform Engineer at the National Institutes of Health (NIH), where I architect
+                and maintain the infrastructure that powers critical biomedical research applications.
+                My work focuses on building robust CI/CD pipelines, automating deployments, and ensuring
+                high availability for systems that researchers depend on worldwide.
               </p>
               <p className="text-dark-600 dark:text-dark-400 leading-relaxed mb-6">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum.
+                With expertise in Kubernetes, Docker, Jenkins, and cloud platforms, I specialize in
+                creating scalable infrastructure that enables teams to deploy faster and more reliably.
+                I'm passionate about DevOps best practices, infrastructure as code, and building tools
+                that make developers' lives easier.
               </p>
               <p className="text-dark-600 dark:text-dark-400 leading-relaxed">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                When I'm not architecting platforms or automating workflows, you'll find me playing FIFA,
+                exploring new DevOps tools, or contributing to open-source projects. I believe in continuous
+                learning and staying at the forefront of cloud-native technologies.
               </p>
             </div>
           </motion.div>
