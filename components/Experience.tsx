@@ -6,36 +6,28 @@ import { FiBriefcase, FiCalendar } from 'react-icons/fi';
 
 const experiences = [
   {
-    title: 'Senior Full Stack Developer',
-    company: 'Tech Innovations Inc.',
-    period: '2022 - Present',
+    title: 'Platform Systems Engineer - DevOps',
+    company: 'National Centre for Biotechnology Information, NIH',
+    period: 'October 2023 - Present',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leading development teams and architecting scalable solutions.',
-    technologies: ['React', 'Node.js', 'AWS', 'TypeScript'],
+      'Engineered sweeper system reducing infrastructure resource usage by 20%. Implemented Istio-based whitelisting for FISMA High compliance. Streamlined deployment monitoring with Kafka integration in CI pipelines. Developed centralized LDAP-based access model eliminating hard-coded permissions.',
+    technologies: ['ArgoCD', 'Istio', 'Kafka', 'LDAP', 'Kubernetes', 'CI/CD'],
   },
   {
-    title: 'Full Stack Developer',
-    company: 'Digital Solutions Ltd.',
-    period: '2020 - 2022',
+    title: 'Software Engineer Intern',
+    company: 'Element Solutions',
+    period: 'September 2022 - April 2023',
     description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Built and maintained multiple client-facing applications.',
-    technologies: ['Vue.js', 'Express', 'MongoDB', 'Docker'],
+      'Optimized healthcare data processing with scalable pipelines on AWS & GCP using Python. Containerized PoC application with Docker, improving deployment efficiency by 25%. Automated infrastructure provisioning using Terraform, reducing launch time by 60%. Streamlined EC2 configuration with Ansible, improving TTL by 15%.',
+    technologies: ['AWS', 'GCP', 'Python', 'Docker', 'Terraform', 'Ansible'],
   },
   {
-    title: 'Frontend Developer',
-    company: 'Creative Studios Co.',
-    period: '2018 - 2020',
+    title: 'Graduate Grading Assistant',
+    company: 'SUNY Binghamton - CS 580',
+    period: 'August 2022 - December 2022',
     description:
-      'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Developed responsive and interactive user interfaces.',
-    technologies: ['JavaScript', 'React', 'CSS', 'HTML'],
-  },
-  {
-    title: 'Junior Developer',
-    company: 'StartUp Ventures',
-    period: '2017 - 2018',
-    description:
-      'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Learned fundamentals and contributed to various projects.',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Git'],
+      'Automated evaluation and preprocessing with Python scripts, reducing grading time by 30%. Guided students in deep learning concepts including CNNs, RNNs & back-propagation. Developed Python program to efficiently process 9000 MNIST images for training models.',
+    technologies: ['Python', 'TensorFlow', 'PyTorch', 'Scikit-learn', 'Jupyter'],
   },
 ];
 

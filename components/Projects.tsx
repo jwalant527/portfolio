@@ -7,56 +7,56 @@ import { useRef, MouseEvent } from 'react';
 
 const projects = [
   {
-    title: 'E-Commerce Platform',
+    title: 'Microservice Vote Tracking Application',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. A full-featured online shopping platform with payment integration and admin dashboard.',
-    image: '🛒',
-    technologies: ['Next.js', 'TypeScript', 'Stripe', 'MongoDB'],
+      'Microservice-based architecture with APIs for real-time vote tallies. Deployed Flask web app on EC2 with Kubernetes orchestration, achieving 30% performance increase. Integrated Jenkins CI/CD pipeline for resilient AWS infrastructure.',
+    image: '🗳️',
+    technologies: ['Python', 'Flask', 'Kubernetes', 'Jenkins', 'AWS', 'SQL Server'],
+    githubUrl: 'https://github.com/jwalant527',
+    liveUrl: '#',
+  },
+  {
+    title: 'AWS Fault Injection Testing',
+    description:
+      'Enhanced infrastructure resilience using AWS Fault Injection Simulator. Tested instance failures, network latency, and API throttling. Orchestrated multi-step errors with Lambda & Step Functions, reducing response time by 15%.',
+    image: '⚡',
+    technologies: ['AWS', 'Lambda', 'Step Functions', 'SSM', 'Linux'],
+    githubUrl: 'https://github.com/jwalant527',
+    liveUrl: '#',
+  },
+  {
+    title: 'Handwritten Digit Recognition',
+    description:
+      'Neural network model using TensorFlow and Pandas achieving 91%+ accuracy. Implemented logistic regression and back-propagation algorithms. Refined performance by 25% through hyperparameter tuning and custom preprocessing.',
+    image: '🔢',
+    technologies: ['Python', 'TensorFlow', 'Pandas', 'Matplotlib', 'Seaborn'],
+    githubUrl: 'https://github.com/jwalant527',
+    liveUrl: '#',
+  },
+  {
+    title: 'ArgoCD Sweeper System',
+    description:
+      'Automated system to remove stale ArgoCD deployments, reducing infrastructure resource usage by 20%. Integrated with Kubernetes to maintain clean deployment environments and optimize resource allocation.',
+    image: '🧹',
+    technologies: ['ArgoCD', 'Kubernetes', 'Python', 'Automation'],
     githubUrl: '#',
     liveUrl: '#',
   },
   {
-    title: 'Task Management App',
+    title: 'Istio Service Mesh Implementation',
     description:
-      'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Collaborative task manager with real-time updates and team features.',
-    image: '✓',
-    technologies: ['React', 'Node.js', 'Socket.io', 'PostgreSQL'],
+      'Implemented Istio-based whitelisting for external endpoints with dynamic service entry generation. Maintained FISMA High compliance while enabling secure communication with vetted external services.',
+    image: '🔒',
+    technologies: ['Istio', 'Kubernetes', 'Service Mesh', 'Security'],
     githubUrl: '#',
     liveUrl: '#',
   },
   {
-    title: 'Weather Dashboard',
+    title: 'CI/CD Monitoring with Kafka',
     description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore. Beautiful weather app with forecasts and interactive maps.',
-    image: '🌤️',
-    technologies: ['Vue.js', 'Express', 'OpenWeather API', 'Leaflet'],
-    githubUrl: '#',
-    liveUrl: '#',
-  },
-  {
-    title: 'Social Media Analytics',
-    description:
-      'Excepteur sint occaecat cupidatat non proident. Analytics dashboard for tracking social media metrics and engagement.',
+      'Streamlined deployment monitoring by integrating Kafka event consumption into CI pipelines. Eliminated database dependencies and enabled real-time rollout status checks for faster deployment feedback.',
     image: '📊',
-    technologies: ['React', 'D3.js', 'Python', 'FastAPI'],
-    githubUrl: '#',
-    liveUrl: '#',
-  },
-  {
-    title: 'Portfolio Generator',
-    description:
-      'Ut enim ad minim veniam, quis nostrud exercitation. Tool for creating beautiful portfolio websites with customizable templates.',
-    image: '🎨',
-    technologies: ['Next.js', 'Tailwind', 'MDX', 'Vercel'],
-    githubUrl: '#',
-    liveUrl: '#',
-  },
-  {
-    title: 'Fitness Tracker',
-    description:
-      'Quis autem vel eum iure reprehenderit qui in ea voluptate. Track workouts, nutrition, and progress with detailed analytics.',
-    image: '💪',
-    technologies: ['React Native', 'Firebase', 'Redux', 'Chart.js'],
+    technologies: ['Kafka', 'CI/CD', 'Jenkins', 'Event Streaming'],
     githubUrl: '#',
     liveUrl: '#',
   },
