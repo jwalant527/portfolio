@@ -6,30 +6,30 @@ import { useState, useEffect } from 'react';
 
 const skillCategories = [
   {
-    category: 'Frontend',
+    category: 'Languages',
     skills: [
-      { name: 'React/Next.js', level: 95 },
-      { name: 'TypeScript', level: 90 },
-      { name: 'Tailwind CSS', level: 92 },
-      { name: 'Vue.js', level: 85 },
+      { name: 'Python', level: 95 },
+      { name: 'Bash', level: 85 },
+      { name: 'C/C++', level: 75 },
+      { name: 'SQL/PL-SQL', level: 80 },
     ],
   },
   {
-    category: 'Backend',
+    category: 'Cloud & Infrastructure',
     skills: [
-      { name: 'Node.js', level: 88 },
-      { name: 'Express', level: 85 },
-      { name: 'Python', level: 80 },
-      { name: 'PostgreSQL', level: 82 },
+      { name: 'AWS', level: 90 },
+      { name: 'Kubernetes', level: 88 },
+      { name: 'Docker', level: 92 },
+      { name: 'Terraform', level: 85 },
     ],
   },
   {
-    category: 'Tools & Others',
+    category: 'DevOps & CI/CD',
     skills: [
-      { name: 'Git/GitHub', level: 90 },
-      { name: 'Docker', level: 78 },
-      { name: 'AWS', level: 75 },
-      { name: 'Figma', level: 85 },
+      { name: 'GitLab CI', level: 90 },
+      { name: 'Jenkins', level: 85 },
+      { name: 'Ansible', level: 82 },
+      { name: 'ArgoCD', level: 88 },
     ],
   },
 ];
@@ -88,18 +88,18 @@ function SkillBar({ skill, index, inView }: { skill: { name: string; level: numb
 }
 
 const techIcons = [
-  { name: 'React', icon: '⚛️' },
-  { name: 'Next.js', icon: '▲' },
-  { name: 'TypeScript', icon: 'TS' },
-  { name: 'Node.js', icon: '📗' },
   { name: 'Python', icon: '🐍' },
-  { name: 'MongoDB', icon: '🍃' },
-  { name: 'PostgreSQL', icon: '🐘' },
+  { name: 'Kubernetes', icon: '☸️' },
   { name: 'Docker', icon: '🐳' },
-  { name: 'Git', icon: '🔧' },
   { name: 'AWS', icon: '☁️' },
-  { name: 'Figma', icon: '🎨' },
-  { name: 'Redux', icon: '🔄' },
+  { name: 'Terraform', icon: '🏗️' },
+  { name: 'GitLab', icon: '🦊' },
+  { name: 'Jenkins', icon: '🔧' },
+  { name: 'Ansible', icon: '⚙️' },
+  { name: 'ArgoCD', icon: '🚀' },
+  { name: 'Kafka', icon: '📊' },
+  { name: 'Istio', icon: '🔒' },
+  { name: 'Linux', icon: '🐧' },
 ];
 
 export default function Skills() {

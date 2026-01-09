@@ -7,7 +7,7 @@ import { FiCode, FiLayout, FiDatabase, FiTool } from 'react-icons/fi';
 const technologies = [
   { name: 'Kubernetes', category: 'platform' },
   { name: 'Docker', category: 'platform' },
-  { name: 'Jenkins', category: 'cicd' },
+  { name: 'ArgoCD', category: 'cicd' },
   { name: 'GitLab CI', category: 'cicd' },
   { name: 'Terraform', category: 'iac' },
   { name: 'Ansible', category: 'iac' },
@@ -88,15 +88,17 @@ export default function About() {
                 high availability for systems that researchers depend on worldwide.
               </p>
               <p className="text-dark-600 dark:text-dark-400 leading-relaxed mb-6">
-                With expertise in Kubernetes, Docker, Jenkins, and cloud platforms, I specialize in
+                With expertise in Kubernetes, Docker, ArgoCD, and cloud platforms, I specialize in
                 creating scalable infrastructure that enables teams to deploy faster and more reliably.
+                As an AWS Certified Solutions Architect Associate and AWS Certified Cloud Practitioner,
                 I'm passionate about DevOps best practices, infrastructure as code, and building tools
                 that make developers' lives easier.
               </p>
               <p className="text-dark-600 dark:text-dark-400 leading-relaxed">
                 When I'm not architecting platforms or automating workflows, you'll find me playing FIFA,
-                exploring new DevOps tools, or contributing to open-source projects. I believe in continuous
-                learning and staying at the forefront of cloud-native technologies.
+                exploring new DevOps tools, or contributing to open-source projects. I hold a Master's
+                degree in Computer Science from Binghamton University and believe in continuous learning
+                and staying at the forefront of cloud-native technologies.
               </p>
             </div>
           </motion.div>
