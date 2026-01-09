@@ -19,14 +19,15 @@ export default function ParticleBackground() {
     const particleCount = 80;
 
     class Particle {
-      x: number;
-      y: number;
-      size: number;
-      speedX: number;
-      speedY: number;
-      opacity: number;
+      x: number = 0;
+      y: number = 0;
+      size: number = 0;
+      speedX: number = 0;
+      speedY: number = 0;
+      opacity: number = 0;
 
       constructor() {
+        if (!canvas) return;
         this.x = Math.random() * canvas.width;
         this.y = Math.random() * canvas.height;
         this.size = Math.random() * 2 + 1;
@@ -36,6 +37,7 @@ export default function ParticleBackground() {
       }
 
       update() {
+        if (!canvas) return;
         this.x += this.speedX;
         this.y += this.speedY;
 
