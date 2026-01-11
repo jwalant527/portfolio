@@ -93,10 +93,9 @@ export default function Hero() {
               transition={{ delay: 0.6 }}
               className="text-lg text-dark-600 dark:text-dark-400 max-w-lg leading-relaxed"
             >
-              I architect the infrastructure that enables scientists and researchers to 
-              deploy faster and more reliably. As a Platform Engineer at NCBI, I maintain 
-              CI/CD systems supporting mission-critical applications that advance 
-              biomedical research worldwide.
+              Platform Engineer at NCBI, where I build the infrastructure that keeps critical
+              biomedical research applications running smoothly. I specialize in Kubernetes,
+              CI/CD automation, and cloud-native solutions that help teams deploy with confidence.
             </motion.p>
 
             <motion.div

@@ -82,23 +82,21 @@ export default function About() {
           >
             <div className="prose prose-lg dark:prose-invert max-w-none">
               <p className="text-dark-600 dark:text-dark-400 leading-relaxed mb-6">
-                I'm a Platform Engineer at the National Institutes of Health (NIH), where I architect
-                and maintain the infrastructure that powers critical biomedical research applications.
-                My work focuses on building robust CI/CD pipelines, automating deployments, and ensuring
-                high availability for systems that researchers depend on worldwide.
+                Currently building and maintaining infrastructure at the National Institutes of Health,
+                where I work on systems that support biomedical research applications used by scientists
+                worldwide. My focus is on creating reliable CI/CD pipelines and automation that keeps
+                things running smoothly behind the scenes.
               </p>
               <p className="text-dark-600 dark:text-dark-400 leading-relaxed mb-6">
-                With expertise in Kubernetes, Docker, ArgoCD, and cloud platforms, I specialize in
-                creating scalable infrastructure that enables teams to deploy faster and more reliably.
-                As an AWS Certified Solutions Architect Associate and AWS Certified Cloud Practitioner,
-                I'm passionate about DevOps best practices, infrastructure as code, and building tools
-                that make developers' lives easier.
+                I work primarily with Kubernetes, Docker, and various cloud platforms to build
+                infrastructure that scales. As an AWS Certified Solutions Architect, I'm always looking for ways to make deployments
+                faster and systems more reliable through automation and smart tooling.
               </p>
               <p className="text-dark-600 dark:text-dark-400 leading-relaxed">
-                When I'm not architecting platforms or automating workflows, you'll find me playing FIFA,
-                exploring new DevOps tools, or contributing to open-source projects. I hold a Master's
-                degree in Computer Science from Binghamton University and believe in continuous learning
-                and staying at the forefront of cloud-native technologies.
+                Outside of work, you'll probably find me playing FIFA.
+                I earned my Master's in Computer Science from Binghamton University and love staying
+                current with the latest in cloud-native tech—there's always something new to learn
+                in this field.
               </p>
             </div>
           </motion.div>

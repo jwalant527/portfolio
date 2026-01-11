@@ -131,8 +131,8 @@ export default function Skills() {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary-500 to-purple-600 mx-auto rounded-full mb-6" />
           <p className="text-dark-600 dark:text-dark-400 max-w-2xl mx-auto text-lg">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Technologies and tools I use
-            to bring ideas to life.
+            From container orchestration to infrastructure automation, here's my technical toolkit
+            for building reliable, scalable platforms.
           </p>
         </motion.div>
 

@@ -82,8 +82,8 @@ export default function Contact() {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary-500 to-purple-600 mx-auto rounded-full mb-6" />
           <p className="text-dark-600 dark:text-dark-400 max-w-2xl mx-auto text-lg">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feel free to reach out for
-            collaborations or just a friendly hello.
+            Have a project in mind or want to discuss DevOps strategies? I'm always open to
+            connecting with fellow enthusiasts.
           </p>
         </motion.div>
 
@@ -153,9 +153,9 @@ export default function Contact() {
               transition={{ duration: 0.6, delay: 0.9 }}
               className="p-6 bg-gradient-to-br from-primary-500 to-purple-600 rounded-xl text-white"
             >
-              <h4 className="text-xl font-bold mb-2">Let's Work Together</h4>
+              <h4 className="text-xl font-bold mb-2">Let's Build Something Great</h4>
               <p className="opacity-90">
-                I'm always interested in hearing about new projects and opportunities.
+                I'm always up for talking shop.
               </p>
             </motion.div>
           </motion.div>

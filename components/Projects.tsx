@@ -184,8 +184,8 @@ export default function Projects() {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary-500 to-purple-600 mx-auto rounded-full mb-6" />
           <p className="text-dark-600 dark:text-dark-400 max-w-2xl mx-auto text-lg">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Here are some of my recent
-            works.
+            Real-world infrastructure and automation projects I've built to solve complex
+            deployment challenges and improve system reliability.
           </p>
         </motion.div>
 

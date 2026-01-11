@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Jwalant Bhatt - Platform Engineer at NIH',
   description: 'Platform Engineer specializing in DevOps, CI/CD, and infrastructure automation at the National Institutes of Health. Expert in Kubernetes, Docker, Jenkins, and cloud platforms.',
-  keywords: 'platform engineer, devops, kubernetes, docker, jenkins, cicd, infrastructure, automation, NIH, NCBI',
+  keywords: 'platform engineer, devops, kubernetes, docker, argocd, jenkins, cicd, infrastructure, automation, NIH, NCBI',
 };
 
 export default function RootLayout({
