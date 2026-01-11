@@ -89,12 +89,11 @@ export default function About() {
               </p>
               <p className="text-dark-600 dark:text-dark-400 leading-relaxed mb-6">
                 I work primarily with Kubernetes, Docker, and various cloud platforms to build
-                infrastructure that scales. With AWS certifications under my belt (Solutions Architect
-                Associate and Cloud Practitioner), I'm always looking for ways to make deployments
+                infrastructure that scales. As an AWS Certified Solutions Architect, I'm always looking for ways to make deployments
                 faster and systems more reliable through automation and smart tooling.
               </p>
               <p className="text-dark-600 dark:text-dark-400 leading-relaxed">
-                Outside of work, you'll probably find me playing FIFA or tinkering with new DevOps tools.
+                Outside of work, you'll probably find me playing FIFA.
                 I earned my Master's in Computer Science from Binghamton University and love staying
                 current with the latest in cloud-native tech—there's always something new to learn
                 in this field.

@@ -83,7 +83,7 @@ export default function Contact() {
           <div className="w-20 h-1 bg-gradient-to-r from-primary-500 to-purple-600 mx-auto rounded-full mb-6" />
           <p className="text-dark-600 dark:text-dark-400 max-w-2xl mx-auto text-lg">
             Have a project in mind or want to discuss DevOps strategies? I'm always open to
-            connecting with fellow engineers and exploring new opportunities.
+            connecting with fellow enthusiasts.
           </p>
         </motion.div>
 
@@ -155,7 +155,7 @@ export default function Contact() {
             >
               <h4 className="text-xl font-bold mb-2">Let's Build Something Great</h4>
               <p className="opacity-90">
-                Whether it's optimizing your infrastructure or architecting new solutions, I'm here to help turn your ideas into reality.
+                I'm always up for talking shop.
               </p>
             </motion.div>
           </motion.div>
